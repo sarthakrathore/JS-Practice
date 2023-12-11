@@ -21,6 +21,7 @@
 
 // function isPalindrome(str) {
 //     const reversedStr = str.split("").reverse().join("");
+//     console.log(reversedStr);
 //     return str === reversedStr;
 //   }
   

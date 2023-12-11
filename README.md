@@ -1,1 +1,1 @@
- JavaScript prcatice repo
+ JavaScript practice repo

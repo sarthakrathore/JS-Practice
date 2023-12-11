@@ -14,7 +14,7 @@
 //     return true;
 //   }
   
-//   const str = "nayans";
+//   const str = "nayan";
 //   console.log(isPalindrome(str)); // Output: true
 
 

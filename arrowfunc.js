@@ -1,19 +1,47 @@
-const user={
+// const user={
 
-    username:"sarthak",
-    price:999,
+//     username:"sarthak",
+//     price:999,
 
-    welcomeMessage:function(){
+//     welcomeMessage:function(){
 
-        console.log(`Hi ${this.username} welcome to the website.`);
-        console.log(this);
+//         console.log(`Hi ${this.username} welcome to the website.`);
+//         console.log(this);
 
-    }
+//     }
+// }
+
+
+// // user.welcomeMessage()
+// // user.username="vicky"
+// // user.welcomeMessage()
+
+// console.log(this);
+
+function chai0(){
+
+    let username="sarthak"
+    // console.log(this.username);
+    // console.log(this);
+
 }
+chai0()
+
+// const chai=function(){
+
+//     let username="sarthak"
+//     console.log(this.username);
+//     // console.log(this);
+
+// }
 
 
-// user.welcomeMessage()
-// user.username="vicky"
-// user.welcomeMessage()
+// const chai1=()=>{
 
-console.log(this);
+//     let username="sarthak"
+//     console.log(this.username);
+//     console.log(this);
+
+// }
+
+// chai1()

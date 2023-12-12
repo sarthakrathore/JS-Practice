@@ -19,3 +19,15 @@ const handleObject=(anyobject)=>{
 
 handleObject(user)
 
+
+// const arr= new Array([1,2,3,4,5])
+const arr=[1,2,3,4,5]
+const handleArray=(anyarray)=>{
+
+    return anyarray[2]
+    
+}
+
+console.log(handleArray(arr));
+
+  

@@ -21,11 +21,27 @@ const numbers=[1,2,3,4,5,6,7,8,9,10]
 // })
 // console.log(myNum);
 
-numbers.filter((num)=>{ //does not return array
+// numbers.filter((num)=>{ //does not return array
 
-   if (num>4) {
+//    if (num>4) {
 
-    console.log(num);
+//     console.log(num);
     
-   }
+//    }
+// })
+
+
+numbers.map((item)=>{
+
+   console.log(item);
 })
+
+
+numbers.reduce((val,val1)=>{
+
+   console.log(val1);
+
+})
+
+
+

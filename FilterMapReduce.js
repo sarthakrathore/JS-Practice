@@ -31,7 +31,7 @@ const numbers=[1,2,3,4,5,6,7,8,9,10]
 // })
 
 
-numbers.map((item)=>{
+numbers.map((item)=>{ 
 
    console.log(item);
 })
@@ -42,6 +42,8 @@ numbers.reduce((val,val1)=>{
    console.log(val1);
 
 })
+
+
 
 
 

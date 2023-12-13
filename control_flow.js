@@ -76,7 +76,7 @@ console.log(val2);
 
 // Ternary Operator
 
-// condition ?true:false
+// condition ? true:false
 
 const price=100
 

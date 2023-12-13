@@ -32,6 +32,43 @@
   
 
 
+// function palindrom(str){
+
+//     let reversestr=str.split("").reverse().join("")
+//     return str===reversestr
+
+// }
+// console.log(palindrom("nayan"));
+
+
+
+function palindrom(str) {
+
+    let i=0
+    let j=str.length-1
+
+    while (i<j) {
+
+        if(str[i]!==str[j]){
+            return false
+        }
+        else{
+            return true
+        }
+
+        i++
+        j--
+        
+    }
+
+    
+}
+
+console.log(palindrom("nayans"));
+
+
+
+
 
 
   

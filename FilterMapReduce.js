@@ -11,15 +11,11 @@
 
 const numbers=[1,2,3,4,5,6,7,8,9,10]
 
-// const myNum=numbers.filter((num)=>{ //returns array
+const myNum=numbers.filter((num)=>{ //returns array
 
-//    if (num>4) {
-
-//     return num
-    
-//    }
-// })
-// console.log(myNum);
+ return num>4
+})
+console.log(myNum);
 
 // numbers.filter((num)=>{ //does not return array
 
@@ -31,17 +27,9 @@ const numbers=[1,2,3,4,5,6,7,8,9,10]
 // })
 
 
-numbers.map((item)=>{ 
-
-   console.log(item);
-})
 
 
-numbers.reduce((val,val1)=>{
 
-   console.log(val1);
-
-})
 
 
 

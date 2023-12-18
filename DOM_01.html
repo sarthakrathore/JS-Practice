@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+
+ 
+    
+</head>
+
+
+<body>
+
+    <div class="bg-black">
+        <button id="btn">Click</button>
+
+        <h1 id="title" class="heading"> DOM learning on chai and code</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+
+        <p id="p2">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore?
+        </p>
+
+        <p>Pada maut se pala mera.Ya aaj mai rahunga ya samne wala mera.</p>
+
+
+    </div>
+
+
+
+    <style>
+        body{
+
+            background-color: #212121;
+            color: #fff;
+            
+        }
+    </style>
+
+    <script>
+
+        document.getElementById('btn').addEventListener('click',function() {
+
+            document.getElementById('title').append("This is an added text  ")
+            document.getElementById('p2').style.backgroundColor="hotpink"
+            document.getElementById('title').style.backgroundColor="hotpink"
+            document.getElementById('p2').innerHTML="<h1>This is p2 added text</h1>"
+           
+        })
+
+    </script>
+
+
+    
+</body>
+</html>

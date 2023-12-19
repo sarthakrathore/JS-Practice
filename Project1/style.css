@@ -1,15 +1,12 @@
-.canvas{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .button{
-
+  
+    display: inline-block;
     height: 100px;
     width: 100px;
     padding: 20px;
     margin: 20px;
     border: 5px solid black;
+
 }
 
 #grey{

@@ -9,6 +9,7 @@ const randomColor=function(){
             
     }
     console.log(typeof color);
+ 
     return color
     
 }
@@ -17,27 +18,33 @@ let intervalId
 const startChangingColor= function(){
 
    
+if (!intervalId) {
+    
 
     intervalId=setInterval(() => {
 
         document.body.style.backgroundColor=randomColor() 
 
-    }, 100);
+    }, 1000);
+
+}
 
 }
 
 const stopChangingColor=function(){
 
     clearInterval(intervalId)
+    intervalId=null
+    
     if (color=="red" || color=="blue" ||color=="green" ||color=="yellow" ||color=="lime" ||color=="purple") {
 
-        document.querySelector('#result').innerHTML=" Sorry! You Lost."
+        document.querySelector('#result').innerHTML="Yay . You Won!!! "
         
     }
 
     else{
 
-        document.querySelector('#result').innerHTML="Yay . You Won!!!"
+        document.querySelector('#result').innerHTML="Sorry! You Lost."
         document.querySelector('#para').innerHTML="Click on start to try again"
 
     }

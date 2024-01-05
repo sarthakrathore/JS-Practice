@@ -15,6 +15,7 @@ console.log(phoneNumber);
 const email="sarthakrathore38@gmail.com"
 console.log(email);
 
+
 console.table([firstName,lastName,age,phoneNumber])
 
 

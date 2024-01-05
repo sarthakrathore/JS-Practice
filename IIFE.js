@@ -6,6 +6,7 @@
 
 
 const coffee=function(){
+    // named IIFE
     console.log("coffee");
 }();
 

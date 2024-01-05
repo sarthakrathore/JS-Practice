@@ -1,0 +1,15 @@
+body{
+    background-color: #212121;
+    color:#fff
+
+}
+
+#wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+

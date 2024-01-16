@@ -1,14 +1,14 @@
-const redditUser=new Object()  //singleton object
-redditUser.id="123abc"
-redditUser.name="newPotato"
-redditUser.isLoggedIn=false
+// const redditUser=new Object()  //singleton object
+// redditUser.id="123abc"
+// redditUser.name="newPotato"
+// redditUser.isLoggedIn=false
 
 
-const redditUser1=redditUser
+// const redditUser1=redditUser
 
-console.log(redditUser===redditUser1);
-console.log(redditUser1.name);
-console.log(redditUser.name);
+// console.log(redditUser===redditUser1);
+// console.log(redditUser1.name);
+// console.log(redditUser.name);
 
 
 // console.log(redditUser);
@@ -36,28 +36,29 @@ console.log(redditUser.name);
 // // console.log(obj1===obj3);
 
 
-// const users=[ //genereally used when data comes from database
-//     {
-//         id:1,
-//         email:"1@gmail.com",
-//     },
-//     {
-//         id:2,
-//         email:"2@gmail.com",
-//     },
-//     {
-//         id:3,
-//         email:"3@gmail.com",
-//     }
-// ]
+const users=[ //genereally used when data comes from database
+    {
+        id:1,
+        email:"1@gmail.com",
+    },
+    {
+        id:2,
+        email:"2@gmail.com",
+    },
+    {
+        id:3,
+        email:"3@gmail.com",
+    }
+]
 
-// users.forEach((element) => {
+users.forEach((element) => {
 
-//     console.log(element.id);
-//     console.log(element.email);
+    console.log(element.id);
+    console.log(element.email);
     
     
-// });
+    
+});
 
 // // users[1].email
 // console.log(redditUser);

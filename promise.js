@@ -124,38 +124,38 @@
 
 
 
-// async function fetchAllUsers(){
-//    try {
-//     const response=await fetch('https://jsonplaceholder.typicode.com/users')
-//     const data=await response.json()
-//     console.log(data);
-
-//    } catch (error) {
-
-//     console.log("could not fetch data",error);
-    
-//    }
-
-// }
-
-// fetchAllUsers()
-
-
-
-
-fetch('https://jsonplaceholder.typicode.com/users')
-.then((response)=>{
-
-    return response.json()
-
-})
-.then((data)=>{
+async function fetchAllUsers(){
+   try {
+    const response=await fetch('https://jsonplaceholder.typicode.com/users')
+    const data=await response.json()
     console.log(data);
-})
 
-.catch((error)=>{
-    console.log(error);
-})
-.finally(()=>{
-    console.log("this is the finally statement");
-})
+   } catch (error) {
+
+    console.log("could not fetch data",error);
+    
+   }
+
+}
+
+fetchAllUsers()
+
+
+
+
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then((response)=>{
+
+//     return response.json()
+
+// })
+// .then((data)=>{
+//     console.log(data);
+// })
+
+// .catch((error)=>{
+//     console.log(error);
+// })
+// .finally(()=>{
+//     console.log("this is the finally statement");
+// })

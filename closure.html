@@ -10,6 +10,8 @@
  
     <!-- <p id="demo">0</p>
     <button id="btn" onclick="inner()">Click</button> -->
+    <button id="orange">orange</button>
+    <button id="green">green</button>
 
 
 
@@ -43,6 +45,26 @@
 // }
 
 // inner()
+
+
+
+
+function clickEvent(color){
+
+
+
+    return function (){
+        document.body.style.backgroundColor=`${color}`
+    }
+    // document.body.style.backgroundColor=`${color}` cannot perform this line of code
+
+}
+
+
+
+
+document.getElementById('orange').onclick=clickEvent('orange')
+document.getElementById('green').onclick=clickEvent('green')
 
 
 

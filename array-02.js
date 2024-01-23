@@ -37,23 +37,41 @@
 
 
 
-const cities=['pune','nagpur','bangalore','delhi','hyderabad']
+// const cities=['pune','nagpur','bangalore','delhi','hyderabad']
 
-cities.map((element)=>{
-    console.log(element);
-})
+// // cities.map((element)=>{
+// //     console.log(element);
+// // })
+// console.log(cities);
+// cities.unshift="surat"
+// console.log(cities);
+
+// const obj={
+//     cities:['ngp','agra'],
+//     players:['virat','rohit'],
+//     numbers:[1,2],
+// }
 
 
+// cities.forEach((element) => {
 
-const obj={
-    cities:['ngp','agra'],
-    players:['virat','rohit'],
-    numbers:[1,2],
-}
-
-
-cities.forEach((element) => {
-
-    console.log(element);
+//     console.log(element);
     
-});
+// });
+
+
+const cities = ['pune', 'nagpur', 'bangalore', 'delhi', 'hyderabad'];
+
+// Use unshift() to add "surat" at the beginning:
+cities.unshift("surat");
+
+console.log(cities); // Output: ["surat", "pune", "nagpur", "bangalore", "delhi", "hyderabad"]
+cities.shift()
+console.log(cities);
+
+cities.push("kolkatta")
+console.log(cities);
+cities.pop()
+console.log(cities);
+
+cities.split

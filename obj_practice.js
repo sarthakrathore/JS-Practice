@@ -40,9 +40,13 @@ const user={
     desig:"programmer"
 
 }
-console.log(user.values());
+// console.log(user.values());
 
-for (const k in user) {
-    console.log(user.v);
+// for (const k in user) {
+//     console.log(user.v);
    
-}
+// }
+
+user.salary=30000
+
+console.log(user);

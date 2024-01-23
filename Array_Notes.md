@@ -1,0 +1,1 @@
+1)All loops work for array's
